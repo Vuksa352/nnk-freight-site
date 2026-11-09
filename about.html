@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us | NNK Freight Inc</title>
+<meta name="description" content="Learn about NNK Freight Inc, a young Chicago-based carrier built on reliability, safety, and communication.">
+<meta property="og:title" content="About Us | NNK Freight Inc">
+<meta property="og:description" content="Learn about NNK Freight Inc, a young Chicago-based carrier built on reliability, safety, and communication.">
+<meta property="og:type" content="website">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:image" content="https://nnkfreightinc.com/images/hero.jpg">
+<meta name="theme-color" content="#5e1fa8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/"><img src="/images/logo.png" alt="NNK Freight Inc" width="94" height="46"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">&#9776; Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/about" aria-current="page">About Us</a></li><li><a href="/drive">Drive With Us</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy Policy</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero small" style="background-image:url('/images/about-header.jpg')"><div class="container"><h1>About Us</h1><div class="bar"></div></div></section>
+<section>
+  <div class="container">
+    <div class="lead">
+      <h2 style="font-size:1.8rem;margin-top:0">About NNK Freight Inc</h2>
+      <p>Based in Chicago, NNK Freight Inc was started to give shippers something that's harder to find than it should be:
+      a carrier that shows up, follows through, and keeps you in the loop. We're a young company with a hands-on approach,
+      and every load we take gets treated like it's our most important one.</p>
+    </div>
+    <div class="grid-2" style="margin-top:44px"><div class="feature"><h3>Your Freight, Handled Right</h3><p>We focus on getting it done correctly the first time, with fast pickups, careful handling, and clean deliveries.</p></div><div class="feature"><h3>Routes That Reach You</h3><p>Whether it's a short run around the Chicago area or a haul halfway across the country, we map out each trip to keep your freight moving.</p></div><div class="feature"><h3>Trucks You Can Count On</h3><p>Breakdowns cause delays, so we stay ahead of them with routine inspections and regular maintenance on every unit.</p></div><div class="feature"><h3>Time Matters to Us</h3><p>Missed appointments cost you money and customers. We plan routes with time to spare and let you know right away if anything on the road changes.</p></div><div class="feature"><h3>One Load or One Hundred</h3><p>From a single pallet run to steady weekly lanes, we adapt to your schedule and volume instead of making you fit ours.</p></div><div class="feature"><h3>Safety Isn't Optional</h3><p>We stay compliant with DOT regulations and expect the same discipline from every driver and every truck, so your cargo gets there intact.</p></div><div class="feature"><h3>Real People, Real Answers</h3><p>When you call NNK, you get someone who knows your shipment, not a phone tree or a ticket number.</p></div><div class="feature"><h3>Updates Without Asking</h3><p>We check in from pickup to delivery, so you always know where your load stands without having to chase anyone down.</p></div></div>
+    <img class="wide-photo" src="/images/hero.jpg" alt="White semi truck driving toward the Chicago skyline at sunset">
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <img class="footer-logo" src="/images/logo-white.png" alt="NNK Freight Inc">
+        <p>Carrier transportation company serving the Chicago area and beyond.</p>
+        <p>5900 S Archer Rd, Unit 241<br>Summit Argo, IL 60501</p>
+        <p>USDOT #45465566 &middot; MC #1805086</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+13312952115">(331) 295-2115</a></p>
+        <p><a href="mailto:safety@nnkfreightinc.com">safety@nnkfreightinc.com</a></p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/drive">Drive With Us</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/sms-terms">SMS Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">&copy; 2026 NNK Freight Inc. All rights reserved.</div>
+  </div>
+</footer>
+<script>
+  const t = document.querySelector('.nav-toggle'), n = document.getElementById('site-nav');
+  t.addEventListener('click', () => {
+    const open = n.classList.toggle('open');
+    t.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
